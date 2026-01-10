@@ -7,6 +7,9 @@
   "containerEnv": {
     "PYTHONASYNCIODEBUG": "1"
   },
+  //"mounts": [
+  //"source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+//],
   "features": {
     // Node feature required for Claude Code until fixed https://github.com/anthropics/devcontainer-features/issues/28
     "ghcr.io/devcontainers/features/node:1": {},
